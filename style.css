@@ -1,0 +1,59 @@
+
+body {
+    font-family: sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; 
+}
+
+header {
+    background-color: #333; 
+    color: white;
+    
+text-align: center;
+    padding: 1rem 0; 
+}
+
+.current-weather {
+    background-color: #fff; 
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.temperature {
+    font-size: 3rem; 
+}
+
+.forecast {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.forecast-item {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    text-align: center;
+    margin: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
